@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Ducks</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header_intro">
+				<div class="logo">
+					<a href="/">
+						Ducks
+					</a>
+				</div>
+				<div class="socials">
+					<a href="">
+						<img src="img/facebook-brands.svg" alt="">
+					</a>
+					<a href="">
+						<img src="img/instagram-brands.svg" alt="">
+					</a>
+					<a href="">
+						<img src="img/vk-brands.svg" alt="">
+					</a>
+				</div>
+			</div>
+		<nav>
+			<ul>
+				<li><a href="#about_ducks">О утках</a></li>
+				<li><a href="#photo_ducks">Фото уток</a></li>
+				<li><a href="https://yandex.ru">Yandex</a></li>
+				<li><a href=""></a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+	<main>
+		<section id="about_ducks" class="about">
+			<div class="container">
+			<h1>О утках</h1>
+			<h2>Ducks are nice</h2>
+			<p>У́тка — представитель птиц из нескольких родов семейства утиных: пеганки, нырковые утки, савки, речные утки, утки-пароходы, мускусные утки и крохали; всего более 110 видов. Распространены утки широко, в России более 30 видов.</p>
+			<ul>
+				<li>smart</li>
+				<li>pretty</li>
+				<li>awesome</li>
+			</ul>
+			<details>
+				<summary>Test</summary>
+				<ul>
+					<li>test1</li>
+					<li>test2</li>
+				</ul>
+			</details>
+			<dl>
+				<dt>У́тка</dt>
+				<dd>представитель птиц из нескольких родов семейства утиных: пеганки, нырковые утки, савки, речные утки, утки-пароходы, мускусные утки и крохали; всего более 110 видов. Распространены утки широко, в России более 30 видов.</dd>
+			</dl>
+			<table>
+				<caption>Test</caption>
+				<thead>
+					<tr>
+						<th>test</th>
+						<th>test</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>test</td>
+						<td>test</td>
+					</tr>
+					<tr>
+						<td>test</td>
+						<td></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>test</td>
+						<td>test</td>
+					</tr>
+				</tfoot>
+			</table>
+			<!-- Forms -->
+			<form action="" method="">
+				<fieldset>
+					<legend>Basic fields</legend>
+				
+				<label for="name">Name</label>
+				<input id="name" type="text" name="name" value="" placeholder="Name">
+				<br>
+				<label for="phone">Phone</label>
+				<input id="phone" type="tel" name="phone" value="" placeholder="Phone">
+				<br>
+				<label for="email">Email</label>
+				<input id="email" type="email" name="email" value="" placeholder="Email" required>
+				<br>
+				<label for="url">Url</label>
+				<input id="url" type="url" name="url" value="" placeholder="Url">
+				<br>
+				<label for="date">Birthday</label>
+				<input type="date" id="date" name="date">
+				<br>
+				<label for="week">Week</label>
+				<input type="week" name="week" id="week">
+				<br>
+				<label for="localdate">Datetime local</label>
+				<input type="datetime-local" id="localdate" name="localdate">
+				<br>
+				<label for="month">Month</label>
+				<input type="month" name="month" id="month">
+				<br>
+				<label for="time">Time</label>
+				<input type="time" id="time" name="time">
+				<br>
+				<label for="file">File</label>
+				<input type="file" name="file" id="file" multiple accept=".jpg, .jpeg, .png">
+				<br>
+				<select name="choosePhone" miltiple>
+					<option disabled selected>Choose option</option>
+				<optgroup label="Apple">
+					<option value="Iphone">Iphone</option>
+					<option value="Iphone2">Iphone2</option>
+				</optgroup>
+				<optgroup label="Nokia">
+					<option value="Nokia">Nokia</option>
+					<option value="Nokia3">Nokia3</option>
+				</optgroup>
+				</select>
+				<br>
+				
+				<label>Text width datalist</label>
+				<input type="text" list="phoneList" name="model" placeholder="Введите модель">
+				<datalist id="phoneList">
+					<option value="Iphone" label="64500"/>
+					<option value="Oppo">55500</option>
+					<option value="Nexus"/>
+				</datalist>
+				<br>
+			</fieldset>
+				<fieldset>
+					<legend>Other options</legend>
+				<label for="ageInput">Age</label>
+				<input id="ageInput" type="number" step="1" min="1" max="200" value="10" name="age">
+				<br>
+				<label for="price">Price</label>
+				<input type="number" list="priceList" step="1000" min="3000" max="100000" value="" id="price" name="price">
+				<br>
+				<label for="iq">Iq</label>
+				1<input type="range" step="1" min="0" max="100" value="10" id="iq" name="iq">100
+				<br>
+				<label for="favcolor">Color</label>
+				<input type="color" id="favcolor" name="favcolor">
+				<br>
+				<label for="hateColor">Hate Color</label>
+				<input type="color" list="hateColors" id="hateColor" name="hatecolor">
+				<datalist id="hateColors">
+					<option value="#0000FF" label="Blue"></option>
+					<option value="#008000" label="Green"></option>
+				</datalist>
+			</fieldset>
+			<input type="submit" value="Send form">
+			</form>
+			<form novalidate>
+				off validation
+				<input type="tel" name="tel" value="" required>
+				<input type="submit" value="Send">
+			</form>
+			<form>
+				off validation
+				<input type="tel" name="tel" value="" required>
+				<input type="submit" value="Send" formonvalidate>
+			</form>
+			<datalist id="priceList">
+				<option value="10000"></option>
+				<option value="15000"></option>
+				<option value="20000"></option>
+			</datalist>
+			<p>Поиск</p>
+			<form>
+				<input type="search" name="term" placeholder="what">
+				<input type="submit" value="Search">
+			</form>
+			<p>Авторизация</p>
+			<form>
+				<input type="text" name="login" placeholder="Login" autofocus>
+				<input type="password" name="password" placeholder="Password">
+				<input type="submit" value="Auth">
+			</form>
+			<article>
+				<header>
+					<h2>Настоящие утки</h2>
+					<p>Опубликовано <time datetime="">10.10.2020</time></p>
+				</header>
+				<p>Настоящие утки[1] (лат. Anatinae) — подсемейство птиц семейства утиных, объединяющее птиц с характерным обликом уток. Объединяет птиц из рода Anas и их ближайших родственников.</p>
+				<a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B8%D0%B5_%D1%83%D1%82%D0%BA%D0%B8" target="_blank">Подробнее</a>
+			</article>
+			<article>
+				<header>
+					<h2>Кряква</h2>
+					<p>Опубликовано <time datetime="">11.10.2020</time></p>
+				</header>
+				<p>Кря́ква[1] (лат. Anas platyrhynchos) — птица из семейства утиных (Anatidae) отряда гусеобразных (Anseriformes). Наиболее известная и распространённая дикая утка[2]. Длина тела самца около 62 см, самки — около 57 см, масса достигает 1—1,5 кг[3] (осенью, когда птица откормится перед самым перелётом, её вес может достигать 2 кг). Голова и шея самца зелёные, зоб и грудь коричнево-бурые, спина и брюшная сторона тела серого цвета с тонкими поперечными пятнышками. Окраска самки бурая с более тёмными пятнышками, брюшная сторона буровато-серая с продольными пестринами. На крыле у самца и самки сине-фиолетовое «зеркало».</p>
+				<a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%8F%D0%BA%D0%B2%D0%B0" target="_blank">Подробнее</a>
+			</article>
+			<article>
+				<header>
+					<h2>Домашняя утка</h2>
+					<p>Опубликовано <time datetime="">12.10.2020</time></p>
+				</header>
+				<p>Дома́шняя у́тка (лат. Anas platyrhynchos, иногда — Anas platyrhynchos f. domestica, Anas platyrhynchos domesticus, Anas domesticus или Anas domestica (Anas boschas domestica)[1][2][3]; самец — се́лезень, птенцы — утя́та) — разводимая человеком водоплавающая птица, один из многочисленных и распространённых видов домашней птицы. Летает плохо, недалеко. Ведёт своё начало от обыкновенной дикой утки, или кряквы[1]. За длительную историю одомашнивания человеком выведены различные породы уток[4]. Разводят их ради мяса, а также яиц[5] и жирной печени (фуа-гра); кроме того, от них получают перо и пух. В редких случаях их держат в качестве домашних питомцев.</p>
+				<a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8F%D1%8F_%D1%83%D1%82%D0%BA%D0%B0" target="_blank">Подробнее</a>
+			</article>
+		</div>
+		</section>
+
+		<section id="photo_ducks" class="photo">
+
+			<div class="photo_ducks">
+				<figure>
+					<img src="img/Duck.jpg" alt="">
+					<figcaption>Duck</figcaption>
+				</figure>
+				<figure>
+					<img src="img/Duck.jpg" alt="">
+					<figcaption>Duck</figcaption>
+				</figure>
+				<figure>
+					<img src="img/Duck.jpg" alt="">
+					<figcaption>Duck</figcaption>
+				</figure>
+				<figure>
+					<img src="img/Duck.jpg" alt="">
+					<figcaption>Duck</figcaption>
+				</figure>
+				<figure>
+					<img src="img/Duck.jpg" alt="">
+					<figcaption>Duck</figcaption>
+				</figure>
+				<figure>
+					<img src="img/Duck.jpg" alt="">
+					<figcaption>Duck</figcaption>
+				</figure>
+			</div>
+		</section>
+		<section class="test">
+			<h2>Art</h2>
+			<article>
+				<h4>Article about art</h4>
+				<p>art art art art art</p>
+				<div class="other">
+					<p>other</p>
+				</div>
+				<div>
+					<p>test +</p>
+				</div>
+				<div>
+					<p>test decoration</p>
+					<p>test decoration</p>
+				</div>
+
+				<a class="blueLink" href="">blue link</a>
+				<a href="">Link simple</a>
+				<a href="">Link simple</a>
+
+			</article>
+			<aside>Different plugins</aside>
+		</section>
+		<section>
+			<div class="block_red">
+				text
+			</div>
+			<audio width="400" height="300" controls>
+				<source src="mobile_phone.mp3" type="audio/mpeg">
+				<source src="mobile_phone.m4a" type="audio/aac">
+				<source src="mobile_phone.ogg" type="audio/ogg">
+			</audio>
+			<video width="400" height="300" controls  preload="auto"  autoplay loop muted  poster="mycat.jpg">
+				<source src="cats.mp4" type="video/mp4">
+				<source src="cats.webm" type="video/webm">
+				<source src="cats.ogv" type="video/ogg">
+			</video>
+
+
+			<video width="400" height="300">
+				<source src="cats.mp4" type="video/mp4">
+				<source src="cats.webm" type="video/webm">
+				<source src="cats.ogv" type="video/ogg">
+			</video>
+			<div id="controls" class="hidden">
+				<a id="playBtn">Play</a>
+				<span id="timer">00:00</span>
+				<input type="range" step="0.1" min="0" max="1" value="0" id="volume" />
+			</div>
+			<!-- Вначале в коде JavaScript мы получаем все элементы. Затем, если браузер поддерживает видео и может его воспроизвести, то обрабатываем событие canplaythrough, устанавливая уровень звука и удаляя класс hidden:
+			Чтобы запустить воспроизведение, нам надо обработать нажатие ссылки Play:
+		Обрабатывая события запуска и остановки воспроизведения, мы можем изменять надпись на ссылке: -->
+			<script>
+			// получаем все элементы
+			var videoEl = document.getElementsByTagName('video')[0],
+				playBtn = document.getElementById('playBtn'),
+				vidControls = document.getElementById('controls'),
+				volumeControl = document.getElementById('volume'),
+				timePicker = document.getElementById('timer');
+			 
+			// если браузер может воспроизводить видео удаляем класс
+			videoEl.addEventListener('canplaythrough', function () {
+				vidControls.classList.remove('hidden');
+				videoEl.volume = volumeControl.value;
+			}, false);
+			// запускам или останавливаем воспроизведение
+			playBtn.addEventListener('click', function () {
+				if (videoEl.paused) {
+					videoEl.play();
+				} else {
+					videoEl.pause();
+				}
+			}, false);
+			 
+			videoEl.addEventListener('play', function () {
+			 
+				playBtn.innerText = "Pause";
+			}, false);
+			 
+			videoEl.addEventListener('pause', function () {
+			 
+				playBtn.innerText = "Play";
+			}, false);
+			 
+			volumeControl.addEventListener('input', function () {
+			 
+				videoEl.volume = volumeControl.value;
+			}, false);
+			 
+			videoEl.addEventListener('ended', function () {
+				videoEl.currentTime = 0;
+			}, false);
+			 
+			videoEl.addEventListener('timeupdate', function () {
+				timePicker.innerHTML = secondsToTime(videoEl.currentTime);
+			}, false);
+			 
+			// рассчет отображаемого времени
+			function secondsToTime(time){
+				 
+				var h = Math.floor(time / (60 * 60)),
+					dm = time % (60 * 60),
+					m = Math.floor(dm / 60),
+					ds = dm % 60,
+					s = Math.ceil(ds);
+				if (s === 60) {
+					s = 0;
+					m = m + 1;
+				}
+				if (s < 10) {
+					s = '0' + s;
+				}
+				if (m === 60) {
+					m = 0;
+					h = h + 1;
+				}
+				if (m < 10) {
+					m = '0' + m;
+				}
+				if (h === 0) {
+					fulltime = m + ':' + s;
+				} else {
+					fulltime = h + ':' + m + ':' + s;
+				}
+				return fulltime;
+			}
+			</script>
+		</section>
+		<section>
+			<canvas id="myCanvas" width="350" height="250"
+			style="background-color:#eee; border: 1px solid #ccc; margin:10px;">
+		Ваш браузер не поддерживает Canvas
+	</canvas>
+	<script>
+		var canvas = document.getElementById("myCanvas"), 
+			context = canvas.getContext("2d"),
+			w = canvas.width,
+			h=canvas.height;
+			 
+		var mouse = { x:0, y:0};
+		var draw = false;
+		 
+		canvas.addEventListener("mousedown", function(e){
+			 
+			mouse.x = e.pageX - this.offsetLeft;
+			mouse.y = e.pageY - this.offsetTop;
+			draw = true;
+			context.beginPath();
+			context.moveTo(mouse.x, mouse.y);
+		});
+		canvas.addEventListener("mousemove", function(e){
+			 
+			if(draw==true){
+			 
+				mouse.x = e.pageX - this.offsetLeft;
+				mouse.y = e.pageY - this.offsetTop;
+				context.lineTo(mouse.x, mouse.y);
+				context.stroke();
+			}
+		});
+		canvas.addEventListener("mouseup", function(e){
+			 
+			mouse.x = e.pageX - this.offsetLeft;
+			mouse.y = e.pageY - this.offsetTop;
+			context.lineTo(mouse.x, mouse.y);
+			context.stroke();
+			context.closePath();
+			draw = false;
+		});
+	</script>
+			<!-- <h2>Canvas</h2>
+			<canvas id="myCanvas" width="350" height="200"
+			style="background-color:#eee; border: 1px solid #ccc;">
+		Ваш браузер не поддерживает Canvas
+	</canvas>
+	<script>
+		var canvas = document.getElementById("myCanvas"), 
+			context = canvas.getContext("2d");
+			 
+		context.strokeRect(50, 40, 100, 100);
+		context.fillRect(200, 40, 100, 100);
+		context.clearRect(50, 40, 40, 40);
+		// рисуем первый красный прямоугольник
+context.beginPath();
+context.moveTo(30, 20);
+context.lineTo(130, 20);
+context.lineTo(130, 110);
+context.lineTo(30, 110);
+context.closePath();
+context.strokeStyle = "red";
+context.stroke();
+ 
+context.clip();
+ 
+// рисуем второй зеленый прямоугольник
+context.beginPath();
+context.rect(10, 50, 180, 70);
+context.closePath();
+context.strokeStyle = "green";
+context.stroke();
+
+context.beginPath();
+            context.moveTo(20, 90);
+            context.arc(20, 90, 50, 0, Math.PI/2, false);
+            context.closePath();
+            context.stroke();
+             
+            context.beginPath();
+            context.moveTo(130, 90);
+            context.arc(130, 90, 50, 0, Math.PI, false);
+            context.closePath();
+            context.stroke();
+             
+            context.beginPath();
+            context.moveTo(240, 90);
+            context.arc(240, 90, 50, 0, Math.PI * 3 / 2, false);
+            context.closePath();
+            context.stroke();
+             
+            context.beginPath();
+            context.arc(350, 90, 50, 0, Math.PI*2, false);
+            context.closePath();
+            context.stroke();
+	</script> -->
+
+	<div class="grid-container">
+		<div class="grid-item color1">Grid Item 1</div>
+		<div class="grid-item color2 special-item">Grid Item 2</div>
+		<div class="grid-item color3">Grid Item 3</div>
+		<div class="grid-item color4">Grid Item 4</div>
+		<div class="grid-item color5">Grid Item 5</div>
+		<div class="grid-item color1">Grid Item 6</div>
+		<div class="grid-item color4">Grid Item 7</div>
+	</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<p>Copyright</p>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
